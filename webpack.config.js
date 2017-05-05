@@ -22,6 +22,7 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.css$/, loader: "to-string-loader!style-loader!css-loader" },
+            //{ test: /\.css$/, loader: "css-loader" },
             { test: /\.tsx?$/, loader: "babel-loader?presets[]=es2015!awesome-typescript-loader" },
             { test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/, loader: 'url-loader?limit=30000&name=assets/[name]-[hash].[ext]' },
             { test: /\.html$/, loader: 'raw-loader' },

@@ -112,10 +112,6 @@ angular-in-memory-web-api@~0.1.13:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/angular-in-memory-web-api/-/angular-in-memory-web-api-0.1.17.tgz#8cefab8d4e2fec70cc99a3e4acb81efd1bd17cbf"
 
-angular2-text-mask@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/angular2-text-mask/-/angular2-text-mask-1.0.1.tgz#698e0bb888807682f81dcd0af63ba2d1d5847436"
-
 animate.css@^3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.5.2.tgz#91e668dc069a808e5e499514867b97aae0166c36"
@@ -2099,10 +2095,6 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
-jquery@x.*:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.1.1.tgz#347c1c21c7e004115e0a4da32cece041fad3c8a3"
-
 js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -2429,16 +2421,6 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-ng2-file-upload@^1.1.2:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/ng2-file-upload/-/ng2-file-upload-1.2.0.tgz#4e8c7e8b55fd71fd5b90d5ce3657570597785a86"
-
-ng2-pdf-viewer@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/ng2-pdf-viewer/-/ng2-pdf-viewer-0.1.6.tgz#6e5fa3fceeaa1e9ae7c37ac1e74684b42b37e347"
-  dependencies:
-    pdfjs-dist "^1.6.329"
-
 no-case@^2.2.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.1.tgz#7aeba1c73a52184265554b7dc03baf720df80081"
@@ -2450,10 +2432,6 @@ node-dir@^0.1.10:
   resolved "https://registry.yarnpkg.com/node-dir/-/node-dir-0.1.16.tgz#d2ef583aa50b90d93db8cdd26fcea58353957fe4"
   dependencies:
     minimatch "^3.0.2"
-
-node-ensure@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/node-ensure/-/node-ensure-0.0.0.tgz#ecae764150de99861ec5c810fd5d096b183932a7"
 
 node-libs-browser@^2.0.0:
   version "2.0.0"
@@ -2694,12 +2672,6 @@ pbkdf2@^3.0.3:
   resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.9.tgz#f2c4b25a600058b3c3773c086c37dbbee1ffe693"
   dependencies:
     create-hmac "^1.1.2"
-
-pdfjs-dist@^1.6.329, pdfjs-dist@^1.6.461:
-  version "1.6.483"
-  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-1.6.483.tgz#f97a36be98ee5b956a3053dba889190b6b9a4bf2"
-  dependencies:
-    node-ensure "^0.0.0"
 
 pify@^2.0.0:
   version "2.3.0"
@@ -3314,12 +3286,6 @@ sax@~1.2.1:
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
-
-semantic-ui-css@latest:
-  version "2.2.10"
-  resolved "https://registry.yarnpkg.com/semantic-ui-css/-/semantic-ui-css-2.2.10.tgz#f8f4470dbeffca0f0f3ff4fb71a35c71e88ad89c"
-  dependencies:
-    jquery x.*
 
 "semver@2 || 3 || 4 || 5", semver@~5.3.0:
   version "5.3.0"

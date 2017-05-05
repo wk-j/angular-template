@@ -12,6 +12,6 @@
         "yarn.lock": true,
         "build.sh": true,
         "src/**/*.js": true,
-        "src/**/*.js.map": true
+        "src/**/*.map": true
     }
 }
