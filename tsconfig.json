@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
         "types": ["node", "hammerjs"],
-        "target": "ES6",
-        "outDir": "temp",
+        "target": "es6",
         "module": "commonjs",
         "sourceMap": true,
         "emitDecoratorMetadata": true,

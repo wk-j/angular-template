@@ -25,7 +25,7 @@
     "pdfjs-dist": "^1.6.461",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
-    "semantic-ui-css": "^2.2.4",
+    "semantic-ui-css": "latest",
     "systemjs": "0.19.39",
     "zone.js": "^0.6.25"
   },
@@ -50,6 +50,7 @@
     "to-string-loader": "^1.1.5",
     "typescript": "^2.0.6",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.3"
+    "webpack": "latest",
+    "webpack-dev-server": "^2.4.5"
   }
 }

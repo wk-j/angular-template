@@ -1,3 +1,6 @@
+import 'zone.js/dist/zone';
+import 'reflect-metadata';
+
 import { NgModule, enableProdMode } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';

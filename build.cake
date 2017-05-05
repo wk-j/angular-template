@@ -1,6 +1,5 @@
 #addin "Cake.WebDeploy"
 #addin "nuget:?package=Cake.Watch"
-#addin "nuget:?package=Cake.UServer"
 
 var version = "0.1.0.0";
 var user = EnvironmentVariable("ghu");
@@ -13,12 +12,15 @@ Action<string,string,string> replace = (file, froms, to) => {
     System.IO.File.WriteAllText(file, text.Replace(froms, to));
 };
 
-Task("Server").Does(() => {
-    var settings = new UServerSettings {
-        Port = 8000,
-        Path = distPath
-    };
-    UServer(settings);
+Task("Dev-Server").Does(() => {
+    StartProcess("./node_modules/.bin/webpack-dev-server");
+});
+
+Task("Python-Server").Does(() => {
+    StartProcess("python", new ProcessSettings {
+        WorkingDirectory = "./dist",
+        Arguments = "-m SimpleHTTPServer"
+    });
 });
 
 Task("Watch").Does(() => {
